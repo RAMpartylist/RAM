@@ -1,0 +1,77 @@
+:root {
+--header-font: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+--pamilya-font: "Helvetica Neue",Helvetica,Arial,sans-serif;
+/* Background */
+--bg-light: #f4f4f4;
+--flag-blue: #0038a8;
+--flag-red: #ce1126;
+--flag-yellow: #fcd116;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top-line{
+    border-top: solid 4px var(--flag-blue);
+}
+.header {
+    display: grid;
+    grid-template-columns: 180px auto;
+    margin: 10px;
+    color: #333333;
+}
+    .header .partylist{
+        text-align: center;
+    }
+    .header .ram {
+        font-family: var(--default-font);
+        font-size: 45px;
+        font-weight: bold;
+        margin-top: 40px;
+    }
+
+#logo_img{
+    width: 180px;
+    height: 180px;
+    margin-left: 10px;
+}
+
+    #logo_img:hover{
+        cursor: pointer;
+    }
+
+    .president{
+        font-family: var(--pamilya-font);
+        text-align: center;
+        margin-top: 20px;
+    }
+.showcase{
+    justify-content: center;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #333;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-gap: 1rem;
+
+}
+    .showcase .candidates{
+        display: grid;
+        grid-template-rows: auto;
+        align-items: center;
+        justify-items: center;
+    }
+    .showcase .candidates .pangalan{
+        margin: 10px;
+        font-weight: bold;
+    }
+#candi_img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    vertical-align: middle;
+}
+
+
